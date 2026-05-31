@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Назва вкладки</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+<header>
+    <h1>Мій Python блог</h1>
+    <nav>
+        <a href="#"> Головна </a>
+        <a href="#"> Статті </a>
+        <a href="#"> Контакти </a>
+
+    </nav>
+    <button id="change-title">Змінити заголовок</button>
+    <button id="dark-mode"> Темна тема </button>
+</header>
+<main>
+    <section>
+        <h2>Ласкаво просимо!</h2>
+        <p>Це мій особистий блог де я вивчаю Python і ділюсь прогресом</p>
+        <p>Тут будуть статті про алгоритми, бази даних та веб-розробку.</p>
+
+        <a href="#">← Назад</a>
+        <article>
+            <h3>Перша стаття що таке Python?</h3>
+            <p> Опубліковано: <time datetime="2025-05-31">31 травня 2025</time></p>
+            <p>Python - це проста і потужна мова програмування. Ось чому я її вивчаю:</p>
+
+            <ul>
+                <li>Простий синтаксис — легко читати</li>
+                <li>Великий вибір бібліотек</li>
+                <li>Використовується в AI, веб та автоматизації</li>
+            </ul>
+
+            <a href="#">Читати далі →</a>
+        </article>
+    </section>
+    <section id="add-article">
+        <h2>Додати статтю<</h2>
+
+        <div class="form">
+            <input type="text" id="article-title" placeholder="Назва статті">
+            <textarea id="article-text" placeholder="Текст статті..." rows="4"></textarea>
+            <button id="add-btn">Додати статтю</button>
+        </div>
+
+        <div id="articles-list"></div>
+    </section>
+</main>
+<footer>
+    <p>© 2025 Моє ім'я · Всі права захищені</p>
+</footer>
+  <script src="script.js"></script>
+  </body>
+</html>
