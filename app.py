@@ -1,9 +1,10 @@
 from flask import Flask, render_template, jsonify, request, redirect, url_for, session
 from werkzeug.security import generate_password_hash, check_password_hash
 import sqlite3
+import os
 
 app = Flask(__name__)
-app.secret_key = 'my_secret_key_123'
+app.secret_key = os.environ.get('SECRET_KEY', 'dev_key_123')
 
 def get_db():
     conn = sqlite3.connect('articles.db')
