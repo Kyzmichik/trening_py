@@ -153,3 +153,20 @@ footer {
 .edit-btn:hover {
     background: #388e3c;
 }
+
+/* Кнопка виходу на головну сторінку */
+#user-info {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    color: #00e5ff;
+    margin-top: 10px;
+}
+
+#user-info a {
+    color: #ff4444;
+    text-decoration: none;
+}
+
+#user-info a:hover {
+    text-decoration: underline;
+}
