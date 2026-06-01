@@ -138,3 +138,18 @@ footer {
 .delete-btn:hover {
     background: #cc0000;
 }
+
+/* Кнопка редагування */
+.edit-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.edit-btn:hover {
+    background: #388e3c;
+}
